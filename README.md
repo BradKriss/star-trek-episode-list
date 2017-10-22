@@ -2,7 +2,7 @@
 
 Orginized list of all Star Trek Episodes
 
-#### Feature Wishlist
+### Feature Wishlist
 
 This was just a Sunday morning project but this list could be much more useful.
 
@@ -12,6 +12,12 @@ This was just a Sunday morning project but this list could be much more useful.
 [] Episode Metadata Cards
 [] Save What Episode You're on
 [] Quick Jump
+[] Color Coded Table (by series)
 
 
 Feel free to contrubute.
+
+### Libraries and Frameworks
+VueJS
+Bootstrap
+JQuery
