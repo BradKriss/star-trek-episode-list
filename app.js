@@ -1,5 +1,10 @@
 new Vue({
   el: '#app',
+  computed: {
+  	episodeList() {
+  		return _.orderBy(this.episodes, 'airDate', 'asec');
+  	}
+  },
   data: {
     message: 'Hello Vue.js!',
     episodes: [
