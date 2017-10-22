@@ -18,6 +18,6 @@ This was just a Sunday morning project but this list could be much more useful.
 Feel free to contrubute.
 
 ### Libraries and Frameworks
-VueJS
-Bootstrap
-JQuery
+- [VueJS](https://vuejs.org/)
+- [Bootstrap](http://getbootstrap.com/) (theme: [Bootswatch/Slate](https://bootswatch.com/slate/))
+- [JQuery](https://jquery.com/)
