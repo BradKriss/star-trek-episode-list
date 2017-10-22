@@ -2,6 +2,8 @@
 
 Orginized list of all Star Trek Episodes
 
+**[View List](https://startrek.bradkriss.com)**
+
 ### Feature Wishlist
 
 This was just a Sunday morning project but this list could be much more useful.
