@@ -8,9 +8,25 @@ Vue.filter('formatDate', function(value) {
 new Vue({
   el: '#app',
   computed: {
-  	episodeList() {
+	episodeList() {
   		return _.orderBy(this.episodes, 'airDate', 'asec');
-  	}
+	},
+	seasonList() {
+		let seasons = [];
+		this.episodes.forEach(function(episode) {
+			seasons.push(episode.seriesCode);
+		});
+		return _.uniq(seasons);
+	}
+
+  },
+  methods: {
+	episodeId(episode) {
+		return episode.seriesCode+"-"+episode.seasonNumber+"-"+episode.episodeNumber;
+	},
+	seasonJump(seasonCode) {
+		return "#"+seasonCode+"-1-1";
+	},
   },
   data: {
     message: 'Hello Vue.js!',
