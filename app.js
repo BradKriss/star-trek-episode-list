@@ -1,3 +1,10 @@
+Vue.filter('formatDate', function(value) {
+	if (value) {
+	  return moment(String(value)).format('MMM Do, YYYY')
+	}
+  });
+
+
 new Vue({
   el: '#app',
   computed: {
@@ -5884,4 +5891,5 @@ new Vue({
 				"airDate": "1994-06-12"}
 			]
   }
-})
+});
+
