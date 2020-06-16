@@ -1,4 +1,4 @@
-# Star Trek Episode List
+# Star Trek Episode List [treklist.app](https://treklist.app/)
 
 Orginized list of all Star Trek Episodes
 
